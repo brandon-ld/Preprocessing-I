@@ -157,6 +157,7 @@ body {
   background-color: whitesmoke;
   margin: 10%;
   font-family: 'Raleway', sans-serif;
+  border-radius: 7px;
 }
 header {
   background-color: #0F4963;
@@ -166,10 +167,11 @@ header {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 7px 7px 0px 0px;
 }
 header nav {
-  padding-left: 21%;
-  font-size: 1.3rem;
+  padding-left: 10%;
+  font-size: 1.1rem;
   color: whitesmoke;
 }
 header nav a {
@@ -180,4 +182,10 @@ header nav a {
 }
 nav a:hover {
   color: #e07b53;
+}
+.titleLeftOne {
+  background-color: #cadfe9;
+  width: 37.5%;
+  padding-top: 58.8%;
+  border-radius: 0px 0px 0px 5px;
 }
