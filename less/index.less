@@ -53,8 +53,23 @@ table {
 * {
     box-sizing: border-box;
 }
+//Fonts families//
 @titleFont:'Raleway', sans-serif;
 @mainFont:'Oswald', sans-serif;
+@titleColors: #c06b49;
+//Fonts families//
+.leftTitles(){
+	color:#c06b49;
+	font-size: 1.65rem;
+	padding:30px 0px 0px 2.6rem;
+	font-family: @titleFont;
+}
+.leftWords(){
+	width:30%;
+	line-height: 1.5rem;
+	padding: 2%;
+	font-family: @mainFont;
+}
 html{
 	height: 120%;
 	background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
@@ -68,10 +83,10 @@ body{
 	height: 100%;
 	background-color:whitesmoke;
 	margin:10%;
-	font-family: @titleFont;
 	border-radius: 7px;
 }//main space for resume details
 header{
+	font-family: @titleFont;
 	background-color:#0F4963;
 	color:#337594;
 	padding:3%;
@@ -95,9 +110,9 @@ header{
 nav a:hover{
 	color:#e07b53;
 }
-.titleLeftOne{
-	background-color:#cadfe9;
-	width:37.5%;
-	padding-top:58.8%;
-	border-radius: 0px 0px 0px 5px;
+.leftSideTitle{
+	.leftTitles();
+}
+.leftSideWords{
+	.leftWords();
 }

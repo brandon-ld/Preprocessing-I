@@ -156,10 +156,10 @@ body {
   height: 100%;
   background-color: whitesmoke;
   margin: 10%;
-  font-family: 'Raleway', sans-serif;
   border-radius: 7px;
 }
 header {
+  font-family: 'Raleway', sans-serif;
   background-color: #0F4963;
   color: #337594;
   padding: 3%;
@@ -183,9 +183,15 @@ header nav a {
 nav a:hover {
   color: #e07b53;
 }
-.titleLeftOne {
-  background-color: #cadfe9;
-  width: 37.5%;
-  padding-top: 58.8%;
-  border-radius: 0px 0px 0px 5px;
+.leftSideTitle {
+  color: #c06b49;
+  font-size: 1.65rem;
+  padding: 30px 0px 0px 2.6rem;
+  font-family: 'Raleway', sans-serif;
+}
+.leftSideWords {
+  width: 30%;
+  line-height: 1.5rem;
+  padding: 2%;
+  font-family: 'Oswald', sans-serif;
 }
