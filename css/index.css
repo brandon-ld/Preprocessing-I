@@ -145,7 +145,7 @@ table {
   box-sizing: border-box;
 }
 html {
-  height: 120%;
+  height: 90%;
   background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -186,12 +186,36 @@ nav a:hover {
 .leftSideTitle {
   color: #c06b49;
   font-size: 1.65rem;
-  padding: 30px 0px 0px 2.6rem;
+  padding: 30px 0px 0px 10rem;
   font-family: 'Raleway', sans-serif;
 }
 .leftSideWords {
-  width: 30%;
+  width: 40%;
   line-height: 1.5rem;
-  padding: 2%;
+  padding: 2% 2% 2% 6rem;
   font-family: 'Oswald', sans-serif;
+}
+.expOne {
+  color: #c06b49;
+  font-size: 1.65rem;
+  padding: 50px 0px 0px 7.1666rem;
+  font-family: 'Raleway', sans-serif;
+}
+.expTwo {
+  width: 40%;
+  line-height: 1.5rem;
+  padding: 2% 2% 2% 6rem;
+  font-family: 'Oswald', sans-serif;
+}
+footer {
+  background-color: #0F4963;
+  color: #337594;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 3% 0px 3% 0px;
+  border-radius: 0px 0px 7px 7px;
+}
+footer div {
+  color: #c06b49;
 }
