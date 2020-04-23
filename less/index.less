@@ -47,13 +47,103 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
-html, body {
-    height: 100%;
+//Fonts families//
+@titleFont:'Raleway', sans-serif;
+@mainFont:'Oswald', sans-serif;
+@titleColors: #c06b49;
+//Fonts families//
+.leftTitles(){
+	color:#c06b49;
+	font-size: 1.65rem;
+	padding:30px 0px 0px 10rem;
+	font-family: @titleFont;
 }
+.leftWords(){
+	width:40%;
+	line-height: 1.5rem;
+	padding: 2% 2% 2% 6rem;
+	font-family: @mainFont;
+}
+.leftWordsTwo(){
+	color:#c06b49;
+	font-size: 1.65rem;
+	padding: 50px 0px 0px 7.1666rem;
+	font-family: @titleFont;
+}
+//Variables end here//
+html{
+	height: 90%;
+	background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+}//background imagry
 
+body{
+	height: 100%;
+	background-color:whitesmoke;
+	margin:10%;
+	border-radius: 7px;
+}//main space for resume details
+header{
+	font-family: @titleFont;
+	background-color:#0F4963;
+	color:#337594;
+	padding:3%;
+	font-size:2.7rem;
+	display:flex;
+	align-items: flex-end;
+	justify-content: center;
+	border-radius: 7px 7px 0px 0px;
+	nav{
+		padding-left: 10%;
+		font-size:1.1rem;
+		color:whitesmoke;
+		a {
+			text-decoration: none;
+			color: #c06b49;
+			display: inline;
+    		margin-right: 40px;
+		}//this ends the header
+	}//this ends the nav
+}//this ends the a anchor
+nav a:hover{
+	color:#e07b53;
+}
+.leftSideTitle{
+	.leftTitles();
+}
+.leftSideWords{
+	.leftWords();
+}
+.expOne{
+	.leftWordsTwo();
+}
+.expTwo{
+	.leftWords();
+}
+footer{
+	background-color:#0F4963;
+	color:#337594;
+	display: flex;
+	justify-content: center;
+	font-family:@titleFont;
+	padding: 3% 0px 3% 0px;
+	border-radius: 0px 0px 7px 7px;
+	div{
+		color:#c06b49;
+	}
+}
+.skillsTitle{
+	display: flex;
+	justify-content: space-around;
+	align-content: flex-start;
+}

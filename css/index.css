@@ -1,1 +1,221 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvgUE.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwIouaqE.ttf) format('truetype');
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 90%;
+  background: url(https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  height: 100%;
+  background-color: whitesmoke;
+  margin: 10%;
+  border-radius: 7px;
+}
+header {
+  font-family: 'Raleway', sans-serif;
+  background-color: #0F4963;
+  color: #337594;
+  padding: 3%;
+  font-size: 2.7rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 7px 7px 0px 0px;
+}
+header nav {
+  padding-left: 10%;
+  font-size: 1.1rem;
+  color: whitesmoke;
+}
+header nav a {
+  text-decoration: none;
+  color: #c06b49;
+  display: inline;
+  margin-right: 40px;
+}
+nav a:hover {
+  color: #e07b53;
+}
+.leftSideTitle {
+  color: #c06b49;
+  font-size: 1.65rem;
+  padding: 30px 0px 0px 10rem;
+  font-family: 'Raleway', sans-serif;
+}
+.leftSideWords {
+  width: 40%;
+  line-height: 1.5rem;
+  padding: 2% 2% 2% 6rem;
+  font-family: 'Oswald', sans-serif;
+}
+.expOne {
+  color: #c06b49;
+  font-size: 1.65rem;
+  padding: 50px 0px 0px 7.1666rem;
+  font-family: 'Raleway', sans-serif;
+}
+.expTwo {
+  width: 40%;
+  line-height: 1.5rem;
+  padding: 2% 2% 2% 6rem;
+  font-family: 'Oswald', sans-serif;
+}
+footer {
+  background-color: #0F4963;
+  color: #337594;
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 3% 0px 3% 0px;
+  border-radius: 0px 0px 7px 7px;
+}
+footer div {
+  color: #c06b49;
+}
